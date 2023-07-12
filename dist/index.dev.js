@@ -6,6 +6,7 @@ var cors = require('cors');
 
 var mysql = require('mysql2');
 
+var port = process.env.PORT || 3000;
 var app = express();
 app.use(cors());
 app.use(express.json());
